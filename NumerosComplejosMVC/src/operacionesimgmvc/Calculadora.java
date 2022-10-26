@@ -3,7 +3,6 @@ package operacionesimgmvc;
 import java.awt.Color;
 
 /**
- *
  * @author Josue Parrado
  */
 public class Calculadora extends javax.swing.JFrame {
@@ -28,6 +27,8 @@ public class Calculadora extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jDialog1 = new javax.swing.JDialog();
+        jDialog2 = new javax.swing.JDialog();
         Imagen = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         BtnSuma = new javax.swing.JButton();
@@ -39,6 +40,28 @@ public class Calculadora extends javax.swing.JFrame {
         BtnLimpiar = new javax.swing.JButton();
         BtnImaginario = new javax.swing.JButton();
         BtnReal = new javax.swing.JButton();
+
+        javax.swing.GroupLayout jDialog1Layout = new javax.swing.GroupLayout(jDialog1.getContentPane());
+        jDialog1.getContentPane().setLayout(jDialog1Layout);
+        jDialog1Layout.setHorizontalGroup(
+            jDialog1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+        );
+        jDialog1Layout.setVerticalGroup(
+            jDialog1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 300, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout jDialog2Layout = new javax.swing.GroupLayout(jDialog2.getContentPane());
+        jDialog2.getContentPane().setLayout(jDialog2Layout);
+        jDialog2Layout.setHorizontalGroup(
+            jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+        );
+        jDialog2Layout.setVerticalGroup(
+            jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 300, Short.MAX_VALUE)
+        );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -366,6 +389,8 @@ public class Calculadora extends javax.swing.JFrame {
     private javax.swing.JButton BtnSuma;
     private javax.swing.JPanel Imagen;
     private javax.swing.JTextField TxtDisplay;
+    private javax.swing.JDialog jDialog1;
+    private javax.swing.JDialog jDialog2;
     private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
